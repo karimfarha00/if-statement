@@ -1,0 +1,13 @@
+# Question1 
+# Write a Python program that asks the user
+#to input a number and then uses if-statements
+#to determine whether the number is positive, negative,
+#or zero. Print an appropriate message for each case.
+
+number=float(input("Enter Any Number To Check If [positive,negative or zero]"))
+if number<0:
+    print("The Number is Negative")
+elif number>0:
+    print("The Number is Positive")
+else:
+    print("The Number is Zero")
